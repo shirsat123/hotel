@@ -1,4 +1,4 @@
-import "./entryBook.css";
+import "./bookEntry.css";
 import { useSelector } from "react-redux";
 
 import BootstrapTable from "react-bootstrap-table-next";
@@ -7,7 +7,7 @@ import "react-bootstrap-table2-filter/dist/react-bootstrap-table2-filter.min.css
 import filterFactory, { textFilter } from "react-bootstrap-table2-filter";
 import { CSVLink } from "react-csv";
 
-export default function EntryBook() {
+export default function BookEntry() {
   const Bookings = useSelector((state) => state.bookings);
   console.log(Bookings);
   
@@ -73,20 +73,17 @@ export default function EntryBook() {
   return (
   <>
    <div id="table-container">
-      {/* <h1> All Entries</h1>
-      <CSVLink id="csv" data={entry}>Download </CSVLink>
+      <h1> All Entries</h1>
+      <CSVLink id="csv1" data={Bookings}>Download </CSVLink>
       <BootstrapTable
         bootstrap4
         keyField= "id"
         columns={columns}
-        data={entry}
+        data={Bookings}
         filter={filterFactory()}
-      /> */}
+      />
 
-      {Bookings.map((bookings)=>(
-        <div>{bookings.firstName}</div>
-      ))}
-
+      
   </div>
   </>);
 }

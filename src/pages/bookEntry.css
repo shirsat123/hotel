@@ -1,0 +1,45 @@
+body {
+    background: rgba(205, 209, 211, 0.514);
+}
+
+table,
+th,
+td {
+    border: 2px solid hsla(7, 89%, 63%, 0.887);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    margin-left: 60px;
+    color: rgb(55, 5, 124);
+}
+
+/* h1{
+    text-align: center;
+} */
+
+#entry {
+    font-family: serif;
+    text-align: center;
+    color: hsla(243, 98%, 50%, 0.887);
+    font-weight: bolder;
+}
+
+#table-container {
+    color: blue;
+    text-align: center;
+}
+
+#link {
+    position: absolute;
+    top: 40px;
+    margin-left: 15px;
+    text-decoration: none;
+
+}
+
+#csv1 {
+    font-size: large;
+    text-decoration: underline;
+    position: relative;
+    bottom: 15px;
+}

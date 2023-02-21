@@ -14,8 +14,10 @@
 
 #h1 {
     position: absolute;
-    top: 50px;
-    right: 100px;
+    top: 150px;
+    font-size: larger;
+    text-align: center;
+    right: 550px;
     font-family: Arial, Helvetica, sans-serif;
     color: hsla(0, 93%, 49%, 0.887);
     font-weight: 800;
@@ -23,10 +25,11 @@
 
 #link1 {
     position: absolute;
-    top: 120px;
-    right: 100px;
-    text-decoration: none;
-    color: blue;
+    font-size: large;
+    top: 230px;
+    right: 700px;
+    text-decoration: underline;
+    color: rgb(20, 20, 253);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

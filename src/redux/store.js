@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { bookingReducer } from "react";
+import  bookingReducer  from "./booking";
 
 export default configureStore({
     reducer:{
@@ -7,4 +7,3 @@ export default configureStore({
     }
     } )
 
-// --legacy-peer-deps

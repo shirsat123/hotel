@@ -7,15 +7,13 @@ export default function Admin() {
       <div id="backside"></div>
       <div className="Admin-Portal">
         <div id="h1">
-          <h1>Administration</h1>
+          <h1>ADMIN PORTAL</h1>
         </div>
 
-        <Link to="/entryBook" id="link1">
-          Entry Book
+        <Link to="/bookEntry" id="link1">
+          Book Entry
         </Link>
-        <Link to="/filter" id="link2">
-          Filter
-        </Link>
+        
       </div>
     </div>
   );

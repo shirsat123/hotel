@@ -1,8 +1,12 @@
-import "./home.css";
 import { useFormik } from "formik";
-import { BookingFormSchema } from "./validation";
+ import "./home.css";
 
-export default function Home() {
+import { BookingFormSchema } from "./validation";
+import { bookingAdded } from "../redux/booking";
+import { useDispatch } from "react-redux";
+
+export default function RegistrationForm() {
+  const dispatch = useDispatch();
   const formik = useFormik({
     initialValues: {
       firstName: "",
@@ -18,7 +22,9 @@ export default function Home() {
     },
     validationSchema: BookingFormSchema,
     onSubmit: async (value) => {
-      console.log(value);
+     dispatch(bookingAdded(value))
+     formik.resetForm();
+      alert("Booking Success,details has been sent on your phone")
     },
   });
 
@@ -26,18 +32,9 @@ export default function Home() {
   <>
   <div id="home">
       <h1 id="head">WELCOME!!!</h1>
-    {/* </div> */}
-
-    {/* <div id="background"></div>
-      <div id="main">
-        <div id="content">
-          <img src=""></img> */}
-          <h3 >Enjoy Your Dream Vacation</h3>
-          
-        </div>
-        {/* </div> */}
-
-        <div id="container">
+      <h3 >Enjoy Your Dream Vacation</h3>
+    </div>
+         <div id="container">
            <form onSubmit={formik.handleSubmit}>
              <h2> Hotel Booking Form</h2>
 
@@ -78,7 +75,7 @@ export default function Home() {
                 type={"text"}
                 onChange={formik.handleChange}
                 value={formik.values.phone}
-                placeholder="Phone Number"
+                placeholder="Mobile Number"
               ></input>
               <div className="error">
                 {formik.errors.phone && (
