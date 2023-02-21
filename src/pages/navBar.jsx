@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
     <div id="nav">
       <Link className="link" to="/">Home</Link>
       <Link className="link" to="/admin">Admin</Link>
-      <Link className="link">Contact </Link>
+      <Link className="link" to="/contact">Contact Us </Link>
       
     </div>
   );
