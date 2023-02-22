@@ -1,45 +1,43 @@
-body {
+body{
     background: rgba(205, 209, 211, 0.514);
 }
 
-table,
-th,
-td {
-    border: 2px solid hsla(7, 89%, 63%, 0.887);
-    border-collapse: collapse;
+#table-container{
+    margin-top: 100px;
     text-align: center;
-    padding: 5px;
-    margin-left: 60px;
-    color: rgb(55, 5, 124);
 }
 
-/* h1{
-    text-align: center;
-} */
-
-#entry {
+h1{
+    top: 50px;
     font-family: serif;
-    text-align: center;
-    color: hsla(243, 98%, 50%, 0.887);
-    font-weight: bolder;
+    padding: 5px;
 }
 
-#table-container {
-    color: blue;
-    text-align: center;
-}
+table ,th, td{
+    
+  border: 2px solid hsla(249, 86%, 14%, 0.887);
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(250, 6, 6);
 
-#link {
+}
+#link{
     position: absolute;
     top: 40px;
     margin-left: 15px;
     text-decoration: none;
 
 }
-
-#csv1 {
-    font-size: large;
+#csv1{
     text-decoration: underline;
     position: relative;
     bottom: 15px;
 }
+table input{
+    width: 60px;
+    height: 5px ;
+}
+

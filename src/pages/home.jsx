@@ -32,7 +32,7 @@ export default function RegistrationForm() {
   <>
   <div id="home">
       <h1 id="head">WELCOME!!!</h1>
-      <h3 >Enjoy Your Dream Vacation</h3>
+      <h3>Enjoy Your Dream Vacation</h3>
     </div>
          <div id="container">
            <form onSubmit={formik.handleSubmit}>

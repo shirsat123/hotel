@@ -6,9 +6,9 @@ export default function Admin() {
     <div>
       <div id="backside"></div>
       <div className="Admin-Portal">
-        <div id="h1">
+        {/* <div id="h1"> */}
           <h1>ADMIN PORTAL</h1>
-        </div>
+        {/* </div> */}
 
         <Link to="/bookEntry" id="link1">
           Book Entry

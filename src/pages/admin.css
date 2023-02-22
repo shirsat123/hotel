@@ -1,7 +1,7 @@
 #backside {
     margin: 0;
     padding: 0;
-    background: url(./admin.jpg);
+    background: url(./adminpage.jpg);
     background-size: 100% 100%;
     height: 130vh;
     background-size: cover;
@@ -12,12 +12,12 @@
     background: rgba(205, 209, 211, 0.514);
 }
 
-#h1 {
+h1 {
     position: absolute;
-    top: 150px;
-    font-size: larger;
+    top: 230px;
+    font-size: xx-large;
     text-align: center;
-    right: 550px;
+    left: 280px;
     font-family: Arial, Helvetica, sans-serif;
     color: hsla(0, 93%, 49%, 0.887);
     font-weight: 800;
@@ -26,18 +26,10 @@
 #link1 {
     position: absolute;
     font-size: large;
-    top: 230px;
-    right: 700px;
+    top: 130px;
+    left: 650px;
     text-decoration: underline;
     color: rgb(20, 20, 253);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#link2 {
-    position: absolute;
-    top: 150px;
-    right: 100px;
-    text-decoration: none;
-    color: blue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}

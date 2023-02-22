@@ -3,10 +3,10 @@ export default function ContactUs() {
   return (
     <div>
       
-      <div className="contact">
-        <div id="h1">
+      <div className="contactUs">
+        {/* <div id="hiii"> */}
           <h1>Thanks!!! for contacting with our website</h1>
-        </div>
+        {/* </div> */}
 
         
       </div>

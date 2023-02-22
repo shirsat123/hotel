@@ -18,8 +18,8 @@ const initialState=[{
     phone: "+919623920971",
     email: "shirsatsonali123@gmail.com",
     guest: "2",
-    adults: "2",
-    childrens:"0" ,
+    adults: "4",
+    childrens:"1" ,
     checkin: "2023-02-22",
     checkout: "2023-02-24",
     category: "Single"
